@@ -5,6 +5,8 @@ This project depends of:
 * `flask` and `oct2py` (python libraries)
 * `octave` (Linux package that's come with octave_cli language)
 
+**Octave is an open-source interpreter. The Octave syntax (mathematics-oriented) is largely compatible with Matlab. [source](https://www.gnu.org/software/octave/)**
+
 ## Run
 
 Start container:
