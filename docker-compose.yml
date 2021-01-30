@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  python-octave:
+    build: ./python_octave
+    container_name: python-octave
+    restart: always
+    ports:
+        - 5000:5000
+    volumes:
+        - ./python_octave:/code
