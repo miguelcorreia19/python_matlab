@@ -1,11 +1,11 @@
 version: "3"
 
 services:
-  python-octave:
-    build: ./python_octave
-    container_name: python-octave
+  python-matlab:
+    build: ./python_matlab
+    container_name: python-matlab
     restart: always
     ports:
         - 5000:5000
     volumes:
-        - ./python_octave:/code
+        - ./python_matlab:/code
